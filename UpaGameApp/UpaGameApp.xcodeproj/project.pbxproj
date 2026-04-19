@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCDCF8AC2F93959400ED0E35 /* UpaGameAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8AB2F93959400ED0E35 /* UpaGameAppApp.swift */; };
+		BCDCF8AE2F93959400ED0E35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8AD2F93959400ED0E35 /* ContentView.swift */; };
+		BCDCF8B02F93959700ED0E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8AF2F93959700ED0E35 /* Assets.xcassets */; };
+		BCDCF8B42F93959700ED0E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8B32F93959700ED0E35 /* Preview Assets.xcassets */; };
+		BCDCF8BB2F939E1500ED0E35 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8BA2F939E1500ED0E35 /* GameScene.swift */; };
+		BCDCF8BD2F93ECE900ED0E35 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8BC2F93ECE900ED0E35 /* Background.swift */; };
+		BCDCF8BF2F93F98D00ED0E35 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8BE2F93F98D00ED0E35 /* Player.swift */; };
+		BCDCF8C12F948F5200ED0E35 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8C02F948F5200ED0E35 /* Enemy.swift */; };
+		BCDCF8C32F9494BC00ED0E35 /* ScoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8C22F9494BC00ED0E35 /* ScoreManager.swift */; };
+		BCDCF8C72F94FA9D00ED0E35 /* eat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8C62F94FA9D00ED0E35 /* eat.mp3 */; };
+		BCDCF8C92F94FD1800ED0E35 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8C82F94FD1800ED0E35 /* gameover.mp3 */; };
+		BCDCF8CD2F94FD4400ED0E35 /* aquarium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8CC2F94FD4400ED0E35 /* aquarium.mp3 */; };
+		BCDCF8CF2F94FE5800ED0E35 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDCF8CE2F94FE5800ED0E35 /* SoundManager.swift */; };
+		BCDCF8D12F95040400ED0E35 /* bubble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8D02F95040400ED0E35 /* bubble.mp3 */; };
+		BCDCF8D32F950AC900ED0E35 /* gameclear.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCDCF8D22F950AC900ED0E35 /* gameclear.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCDCF8A82F93959400ED0E35 /* UpaGameApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpaGameApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDCF8AB2F93959400ED0E35 /* UpaGameAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpaGameAppApp.swift; sourceTree = "<group>"; };
+		BCDCF8AD2F93959400ED0E35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCDCF8AF2F93959700ED0E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCDCF8B12F93959700ED0E35 /* UpaGameApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UpaGameApp.entitlements; sourceTree = "<group>"; };
+		BCDCF8B32F93959700ED0E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCDCF8BA2F939E1500ED0E35 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../../../GameScene.swift; sourceTree = "<group>"; };
+		BCDCF8BC2F93ECE900ED0E35 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Background.swift; path = ../../../../Background.swift; sourceTree = "<group>"; };
+		BCDCF8BE2F93F98D00ED0E35 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../../../../Player.swift; sourceTree = "<group>"; };
+		BCDCF8C02F948F5200ED0E35 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Enemy.swift; path = ../../../../Enemy.swift; sourceTree = "<group>"; };
+		BCDCF8C22F9494BC00ED0E35 /* ScoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScoreManager.swift; path = ../../../../ScoreManager.swift; sourceTree = "<group>"; };
+		BCDCF8C62F94FA9D00ED0E35 /* eat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = eat.mp3; sourceTree = "<group>"; };
+		BCDCF8C82F94FD1800ED0E35 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		BCDCF8CC2F94FD4400ED0E35 /* aquarium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aquarium.mp3; sourceTree = "<group>"; };
+		BCDCF8CE2F94FE5800ED0E35 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundManager.swift; path = ../../../../SoundManager.swift; sourceTree = "<group>"; };
+		BCDCF8D02F95040400ED0E35 /* bubble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bubble.mp3; path = ../../../../Downloads/bubble.mp3; sourceTree = "<group>"; };
+		BCDCF8D22F950AC900ED0E35 /* gameclear.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameclear.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCDCF8A52F93959400ED0E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCDCF89F2F93959400ED0E35 = {
+			isa = PBXGroup;
+			children = (
+				BCDCF8AA2F93959400ED0E35 /* UpaGameApp */,
+				BCDCF8A92F93959400ED0E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCDCF8A92F93959400ED0E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCF8A82F93959400ED0E35 /* UpaGameApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCDCF8AA2F93959400ED0E35 /* UpaGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCF8AB2F93959400ED0E35 /* UpaGameAppApp.swift */,
+				BCDCF8BA2F939E1500ED0E35 /* GameScene.swift */,
+				BCDCF8CE2F94FE5800ED0E35 /* SoundManager.swift */,
+				BCDCF8C22F9494BC00ED0E35 /* ScoreManager.swift */,
+				BCDCF8C02F948F5200ED0E35 /* Enemy.swift */,
+				BCDCF8BC2F93ECE900ED0E35 /* Background.swift */,
+				BCDCF8BE2F93F98D00ED0E35 /* Player.swift */,
+				BCDCF8AD2F93959400ED0E35 /* ContentView.swift */,
+				BCDCF8C62F94FA9D00ED0E35 /* eat.mp3 */,
+				BCDCF8D02F95040400ED0E35 /* bubble.mp3 */,
+				BCDCF8D22F950AC900ED0E35 /* gameclear.mp3 */,
+				BCDCF8C82F94FD1800ED0E35 /* gameover.mp3 */,
+				BCDCF8CC2F94FD4400ED0E35 /* aquarium.mp3 */,
+				BCDCF8AF2F93959700ED0E35 /* Assets.xcassets */,
+				BCDCF8B12F93959700ED0E35 /* UpaGameApp.entitlements */,
+				BCDCF8B22F93959700ED0E35 /* Preview Content */,
+			);
+			path = UpaGameApp;
+			sourceTree = "<group>";
+		};
+		BCDCF8B22F93959700ED0E35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCDCF8B32F93959700ED0E35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCDCF8A72F93959400ED0E35 /* UpaGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCDCF8B72F93959700ED0E35 /* Build configuration list for PBXNativeTarget "UpaGameApp" */;
+			buildPhases = (
+				BCDCF8A42F93959400ED0E35 /* Sources */,
+				BCDCF8A52F93959400ED0E35 /* Frameworks */,
+				BCDCF8A62F93959400ED0E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpaGameApp;
+			productName = UpaGameApp;
+			productReference = BCDCF8A82F93959400ED0E35 /* UpaGameApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCDCF8A02F93959400ED0E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BCDCF8A72F93959400ED0E35 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BCDCF8A32F93959400ED0E35 /* Build configuration list for PBXProject "UpaGameApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCDCF89F2F93959400ED0E35;
+			productRefGroup = BCDCF8A92F93959400ED0E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDCF8A72F93959400ED0E35 /* UpaGameApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCDCF8A62F93959400ED0E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCF8C92F94FD1800ED0E35 /* gameover.mp3 in Resources */,
+				BCDCF8C72F94FA9D00ED0E35 /* eat.mp3 in Resources */,
+				BCDCF8B42F93959700ED0E35 /* Preview Assets.xcassets in Resources */,
+				BCDCF8D32F950AC900ED0E35 /* gameclear.mp3 in Resources */,
+				BCDCF8B02F93959700ED0E35 /* Assets.xcassets in Resources */,
+				BCDCF8CD2F94FD4400ED0E35 /* aquarium.mp3 in Resources */,
+				BCDCF8D12F95040400ED0E35 /* bubble.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCDCF8A42F93959400ED0E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDCF8BB2F939E1500ED0E35 /* GameScene.swift in Sources */,
+				BCDCF8CF2F94FE5800ED0E35 /* SoundManager.swift in Sources */,
+				BCDCF8AE2F93959400ED0E35 /* ContentView.swift in Sources */,
+				BCDCF8C12F948F5200ED0E35 /* Enemy.swift in Sources */,
+				BCDCF8AC2F93959400ED0E35 /* UpaGameAppApp.swift in Sources */,
+				BCDCF8BF2F93F98D00ED0E35 /* Player.swift in Sources */,
+				BCDCF8BD2F93ECE900ED0E35 /* Background.swift in Sources */,
+				BCDCF8C32F9494BC00ED0E35 /* ScoreManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCDCF8B52F93959700ED0E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCDCF8B62F93959700ED0E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BCDCF8B82F93959700ED0E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpaGameApp/UpaGameApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpaGameApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UPA-EAT";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.UpaGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCDCF8B92F93959700ED0E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon1;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpaGameApp/UpaGameApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpaGameApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "UPA-EAT";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayashi.UpaGameApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCDCF8A32F93959400ED0E35 /* Build configuration list for PBXProject "UpaGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDCF8B52F93959700ED0E35 /* Debug */,
+				BCDCF8B62F93959700ED0E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCDCF8B72F93959700ED0E35 /* Build configuration list for PBXNativeTarget "UpaGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCDCF8B82F93959700ED0E35 /* Debug */,
+				BCDCF8B92F93959700ED0E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCDCF8A02F93959400ED0E35 /* Project object */;
+}
